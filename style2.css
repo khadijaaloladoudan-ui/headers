@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+width: 100%;
+background-color: black;
+display: flex;
+padding: 12px 35px;
+align-items: center;
+justify-content: flex-start;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+header nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 8px;
+}
+
+header div tr td{
+    padding: 8px;
+    text-align: right;
+    border-radius: 8px 0 0 0;
+}
+
+.search{
+    margin-left: auto;
+}
